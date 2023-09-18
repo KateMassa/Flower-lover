@@ -1,0 +1,57 @@
+body {
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  color: #7d564e;
+  background-color: #fff;
+  line-height: 150%;
+  text-decoration: none;
+}
+
+.page-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+  gap: 80px;
+}
+
+/*HEADER*/
+.page-header {
+  margin: 12px 80px;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.nav-buttons {
+  align-items: end;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.5;
+  text-transform: uppercase;
+  text-align: center;
+}
