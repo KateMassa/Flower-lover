@@ -5,6 +5,15 @@ body {
   background-color: #fff;
   line-height: 150%;
   text-decoration: none;
+  opacity: 0.75;
+  background: var(
+    --background-angular,
+    conic-gradient(
+      from 73deg at 25% 50%,
+      #f2e7db 123.77259492874146deg,
+      #fbfbfb 323.1992554664612deg
+    )
+  );
 }
 
 .page-container {
@@ -28,10 +37,9 @@ img {
 
 .container {
   display: flex;
-  width: 1158px;
+  width: 1250px;
   margin: 0 auto;
   padding: 0 15px;
-  gap: 80px;
 }
 
 /*HEADER*/
@@ -55,4 +63,12 @@ img {
   letter-spacing: 0.5;
   text-transform: uppercase;
   text-align: center;
+}
+
+/*-----------hero--------------*/
+.hero {
+  height: 800px;
+}
+.hero-img {
+  align-items: end;
 }
