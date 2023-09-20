@@ -67,13 +67,5 @@ img {
 .hero .container {
   flex-direction: row-reverse;
   height: 800px;
-  opacity: 0.75;
-  background: var(
-    --background-angular,
-    conic-gradient(
-      from 73deg at 25% 50%,
-      #f2e7db 123.77259492874146deg,
-      #fbfbfb 323.1992554664612deg
-    )
-  );
+  background-image: url(/images/backgrd.png);
 }
