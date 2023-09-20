@@ -65,7 +65,22 @@ img {
   padding: 0;
 }
 .hero .container {
-  flex-direction: row-reverse;
+  flex-direction: row;
   height: 800px;
-  background-image: url(/images/backgrd.png);
+  background-image: url(/images/hero-screen.jpg), url(/images/backgrd.png);
+  background-size: 800px, cover;
+  background-position: right, center;
+  background-repeat: no-repeat, no-repeat;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.hero-text-motto {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
 }
