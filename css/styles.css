@@ -70,6 +70,7 @@ img {
 .hero .container {
   flex-direction: row;
   height: 800px;
+  opacity: 80%;
   background-image: url(/images/hero-screen.jpg);
   background-size: 600px;
   background-position: right;
