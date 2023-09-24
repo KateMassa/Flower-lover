@@ -71,7 +71,6 @@ img {
 .hero .container {
   flex-direction: row;
   height: 800px;
-
   background-image: url(/images/hero-screen.jpg);
   background-size: 600px;
   background-position: right;
