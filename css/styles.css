@@ -41,17 +41,9 @@ img {
 }
 
 .start-page-bcgd {
-  background: var(
-    --background-angular,
-    conic-gradient(
-      from 73deg at 25% 50%,
-      #f2e7db 123.7365996837616deg,
-      #f2e7db 123.77259492874146deg,
-      #f2e7db 123.80859017372131deg,
-      #f2e7db 123.84458541870117deg,
-      #fbfbfb 323.1992554664612deg
-    )
-  );
+  width: 100%;
+  height: 601px;
+  background: linear-gradient(180deg, #f6f0e9 0%, rgba(246, 240, 233, 0) 100%);
 }
 
 .page-header .container {
