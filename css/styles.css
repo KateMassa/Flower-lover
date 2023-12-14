@@ -42,7 +42,6 @@ img {
 
 .start-page-bcgd {
   width: 100%;
-  height: 601px;
   background: linear-gradient(180deg, #f6f0e9 0%, rgba(246, 240, 233, 0) 100%);
 }
 
@@ -77,6 +76,18 @@ img {
   border-radius: 12px;
   border: 1px solid var(--CTA-color, #446883);
   background: rgba(217, 217, 217, 0);
+}
+
+.nav-item button:hover,
+.nav-item button:focus {
+  border: 1px solid var(--CTA-color, #446883);
+  background-color: #446883;
+  color: #fff;
+}
+
+.contacts-item .icon:hover,
+.contacts-item .icon:focus {
+  fill: #fff;
 }
 
 .burger-menu {
@@ -158,7 +169,41 @@ img {
   text-transform: uppercase;
 }
 
+.cta-button:hover,
+.cta-button:focus {
+  background-color: #a0cadf;
+  color: #7d564e;
+}
+
 .hero-flowers {
   padding: 0;
   width: 100%;
+}
+
+.advantages .container {
+  margin-top: 80px;
+}
+
+.section-heading {
+  color: #7d564e;
+  font-family: Jost;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 54px */
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.advantages-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding-top: 40px;
+}
+
+.ads-icon-container {
+  display: flex;
+  justify-content: center;
 }
