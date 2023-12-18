@@ -1,5 +1,5 @@
 body {
-  font-family: "Jost", "Work Sans", sans-serif;
+  font-family: 'Jost', 'Work Sans', sans-serif;
   font-size: 16px;
   color: #7d564e;
   background-color: #fff;
@@ -237,4 +237,46 @@ img {
   line-height: 125%;
   color: #446883;
   margin-top: 20px;
+}
+
+.gallery-list-container {
+  margin-top: 40px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.gallery-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery-list img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #e5beb2;
+  contain: no-repeat;
+}
+
+.card-info-container {
+  padding-top: 20px;
+}
+
+.card-title {
+  font-size: 24px;
+  color: #7d564e;
+  font-weight: 600;
+  line-height: 150%; /* 36px */
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.card-price {
+  color: #446883;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px; /* 133.333% */
+  text-transform: uppercase;
+  text-align: center;
 }
