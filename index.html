@@ -87,12 +87,17 @@
         </div>
         <div class="hero-img">
           <picture>
-            <img
-              class="hero-flowers"
-              src="./images/hero-flowers-1x.jpg"
-              alt="flowers"
-            />
-          </picture>
+            <source
+              srcset="
+                ./images/hero-flowers-1x.jpg 1x,
+                ./images/hero-flowers-2x.jpg 2x
+              "
+          /></picture>
+          <img
+            class="hero-flowers"
+            src="./images/hero-flowers-1x.jpg"
+            alt="flowers"
+          />
         </div>
       </section>
       <section class="advantages">
@@ -148,24 +153,38 @@
           <div class="gallery-list-container">
             <ul class="gallery-list">
               <li class="gallery-item">
-                <img src="./images/bouquet1.jpg" alt="Rose flowers" />
+                <div class="card">
+                  <picture>
+                    <img src="./images/bouquet1.jpg" alt="Rose flowers"
+                  /></picture>
+                  <p class="overlay">description</p>
+                </div>
                 <div class="card-info-container">
                   <h4 class="card-title">light of my life</h4>
                   <p class="card-price">from 29.99 euro</p>
                 </div>
               </li>
               <li class="gallery-item">
-                <img
-                  src="./images/bouquet2.jpg"
-                  alt="Rose and yellow flowers"
-                />
+                <div class="card">
+                  <picture>
+                    <img
+                      src="./images/bouquet2.jpg"
+                      alt="Rose and yellow flowers"
+                  /></picture>
+                  <p class="overlay">description</p>
+                </div>
                 <div class="card-info-container">
                   <h4 class="card-title">wild spirit bouquet</h4>
                   <p class="card-price">from 29.99 euro</p>
                 </div>
               </li>
               <li class="gallery-item">
-                <img src="./images/bouquet3.jpg" alt="Multicolor flowers" />
+                <div class="card">
+                  <picture>
+                    <img src="./images/bouquet3.jpg" alt="Multicolor flowers"
+                  /></picture>
+                  <p class="overlay">description</p>
+                </div>
                 <div class="card-info-container">
                   <h4 class="card-title">graceful bouquet</h4>
                   <p class="card-price">from 29.99 euro</p>
@@ -175,8 +194,52 @@
           </div>
         </div>
       </section>
-      <section></section>
-      <section></section>
+      <section class="delivery">
+        <div class="container">
+          <h2 class="section-heading visually-hidden">delivery</h2>
+          <div class="outer-border">
+            <div class="inner-border">
+              <p class="shipping-title">free shipping</p>
+              <p class="shipping-text">on all orders</p>
+            </div>
+          </div>
+          <button class="cta-button" type="button">order now</button>
+        </div>
+      </section>
+      <section class="steps">
+        <div class="container">
+          <h2 class="section-heading">how it works</h2>
+          <ul class="steps-list">
+            <li class="steps-list-item">
+              <div class="steps-icon-container">
+                <p class="steps-num">1</p>
+              </div>
+              <h3 class="steps-heading">Make your flower choice</h3>
+              <p class="steps-text">And complete your order.</p>
+            </li>
+            <li class="steps-list-item">
+              <div class="steps-icon-container">
+                <p class="steps-num">2</p>
+              </div>
+              <h3 class="steps-heading">We make the composition</h3>
+              <p class="steps-text">
+                Once chosen, go to checkout and select shipping day and
+                destination.
+              </p>
+            </li>
+            <li class="steps-list-item">
+              <div class="steps-icon-container">
+                <p class="steps-num">3</p>
+              </div>
+              <h3 class="steps-heading">The bouquet is on the way!</h3>
+              <p class="steps-text">
+                We will help you express your closeness and feeling with a fast
+                flower delivery.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
       <section></section>
       <section></section>
     </main>
